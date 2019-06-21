@@ -105,7 +105,6 @@ model_cat.fit(X_train,y_train, cat_features=categorical_features,
               use_best_model= True)
 # validation score
 print('Validation score : {} '.format(model_cat.score(X_valid, y_valid)))
-# testing score
 
 
 
